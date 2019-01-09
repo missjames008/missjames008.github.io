@@ -11,6 +11,20 @@ body {
   }
 }
 
+@media (max-width: 667px)  {
+  #logo-text {
+    display: none;
+  }
+
+  #header-img {
+    padding-top: 50px;
+  }
+
+  #title-text {
+    padding-left: 0px !important;
+  }
+}
+
 .navbar {
   background-color: #3B4C54 !important;
 }
